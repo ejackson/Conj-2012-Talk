@@ -4,6 +4,8 @@
    [clojure.core.reducers :as r]
    [criterium.core :as crit]))
 
+(m/rnorm 5 5)
+
 ;; Get a 1Mn random numbers to calculate entropy over
 (def ps (vec (repeatedly 1e6 rand)))
 

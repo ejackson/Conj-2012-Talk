@@ -70,5 +70,4 @@
   (-> (sample-normal 1e5 :mean 50 :sd 10)
       density
       view)
-
   )

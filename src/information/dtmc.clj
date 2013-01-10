@@ -79,6 +79,7 @@
         (db conn) (cons server-id server-ids))))
 
 (comment
+  ;; This shows the density that is misbehaving.
   (-> (server-response-times 3)
       seq
       flatten

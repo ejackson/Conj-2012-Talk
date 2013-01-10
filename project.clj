@@ -4,6 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.0-beta1"]
-                 [clatrix "0.1.0"]
+                 [clatrix "0.2.0-SNAPSHOT"]
                  [incanter "1.4.0"]
-                 [com.datomic/datomic-free "0.8.3599"]])
+                 [com.datomic/datomic-free "0.8.3599"]
+                 [criterium "0.3.1"]])
